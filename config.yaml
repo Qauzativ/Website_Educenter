@@ -1,69 +1,50 @@
+---
 baseURL: http://examplesite.org
 title: Qauzativ website template
 theme: educenter-hugo
-# paginate affects the number of blog posts per page,
 paginate: '4'
-# summaryLength seems to affect the length of the summary 
-# only on the blog page (main page where blog posts are listed)
 summaryLength: '40'
-# disqusShortname: educenter
 disableLanguages: []
 params:
   address: https://github.com/Qauzativ?tab=repositories
   author: Qauzativ
-  contact_form_action: '#'
+  contact_form_action: "#"
   cookies:
-    enable: #yes
+    enable: 
     expire_days: 100
   description: Description in config.yaml file
   email: info@qauzativ.com
   google_analitycs_id: ''
   logo: images/logo.png
-  # map:
-  #   enable: yes
-  #   gmap_api: https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ
-  #   map_latitude: '51.5223477'
-  #   map_longitude: '-0.1622023'
-  #   map_marker: images/marker.png
-  mobile: '+0 000 000 0000'
+  mobile: "+0 000 000 0000"
   plugins:
     css:
-      - link: plugins/bootstrap/bootstrap.min.css
-      - link: plugins/slick/slick.css
-      - link: plugins/animate/animate.css
-      - link: plugins/venobox/venobox.css
-      - link: plugins/themify-icons/themify-icons.css
+    - link: plugins/bootstrap/bootstrap.min.css
+    - link: plugins/slick/slick.css
+    - link: plugins/animate/animate.css
+    - link: plugins/venobox/venobox.css
+    - link: plugins/themify-icons/themify-icons.css
     js:
-      - link: plugins/jQuery/jquery.min.js
-      - link: plugins/bootstrap/bootstrap.min.js
-      - link: plugins/slick/slick.min.js
-      - link: plugins/venobox/venobox.min.js
-      - link: plugins/filterizr/jquery.filterizr.min.js
-      - link: plugins/google-map/gmap.js
+    - link: plugins/jQuery/jquery.min.js
+    - link: plugins/bootstrap/bootstrap.min.js
+    - link: plugins/slick/slick.min.js
+    - link: plugins/venobox/venobox.min.js
+    - link: plugins/filterizr/jquery.filterizr.min.js
+    - link: plugins/google-map/gmap.js
   preloader:
-    enable: #yes
+    enable: 
     preloader: images/preloader.gif
   social:
-    # - icon: ti-facebook
-    #   link: '#'
-    #   title: facebook
-    # - icon: ti-twitter-alt
-    #   link: '#'
-    #   title: twitter
-    # - icon: ti-instagram
-    #   link: '#'
-    #   title: instagram
-    - icon: ti-github
-      link: '#'
-      title: github
-    - icon: ti-linkedin
-      link: '#'
-      title: linkedin
+  - icon: ti-github
+    link: "#"
+    title: github
+  - icon: ti-linkedin
+    link: "#"
+    title: linkedin
   subscription:
-    enable: #yes
+    enable: 
     mailchimp_form_action: https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074
     mailchimp_form_name: b_463ee871f45d2d93748e77cad_a0a2c6d074
-  # top_header: yes
 Languages:
   en:
     contentDir: content/english
@@ -73,115 +54,62 @@ Languages:
     languageName: En
     menu:
       footer:
-        - name: teacher
-          url: teacher
-        - name: notice
-          url: notice
-        - name: event
-          url: event
-        - name: scholarship
-          url: scholarship
-        - name: research
-          url: research
+      - name: teacher
+        url: teacher
+      - name: notice
+        url: notice
+      - name: event
+        url: event
+      - name: scholarship
+        url: scholarship
+      - name: research
+        url: research
       main:
-        - name: Why Qauzativ?
-          url: product
-          weight: 1
-        - name: Training = Solutions
-          url: training
-          weight: 2
-        - hasChildren: yes
-          name: Info
-          weight: 3
-        - name: About
-          parent: Info
-          url: about
-        - name: FAQ
-          parent: Info
-          url: faq
-        - name: Blog
-          parent: Info
-          url: blog
-        - name: Contact
-          parent: Info
-          url: contact
-        - name: Events
-          parent: Info
-          url: event
-
-        - name: course
-          url: course
-          weight: 11
-        - hasChildren: yes
-          name: Pages
-          weight: 12
-        - name: teacher
-          parent: Pages
-          url: teacher
-        - name: notice
-          parent: Pages
-          url: notice
-        - name: event
-          parent: Pages
-          url: event
-        - name: scholarship
-          parent: Pages
-          url: scholarship
-        - name: research
-          parent: Pages
-          url: research
-        - name: author
-          parent: Pages
-          url: author
-
-  # fr:
-  #   contentDir: content/french
-  #   copyright: Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)
-  #   home: Accueil
-  #   languageCode: fr-fr
-  #   languageName: Fr
-  #   menu:
-  #     footer:
-  #       - name: teacher
-  #         url: teacher
-  #       - name: notice
-  #         url: notice
-  #       - name: event
-  #         url: event
-  #       - name: scholarship
-  #         url: scholarship
-  #       - name: research
-  #         url: research
-  #     main:
-  #       - name: À propos
-  #         url: about
-  #         weight: 1
-  #       - name: Cours
-  #         url: course
-  #         weight: 2
-  #       - hasChildren: yes
-  #         name: Pages
-  #         weight: 3
-  #       - name: teacher
-  #         parent: Pages
-  #         url: teacher
-  #       - name: notice
-  #         parent: Pages
-  #         url: notice
-  #       - name: Évènement
-  #         parent: Pages
-  #         url: event
-  #       - name: Cursus
-  #         parent: Pages
-  #         url: scholarship
-  #       - name: research
-  #         parent: Pages
-  #         url: research
-  #       - name: blog
-  #         url: blog
-  #         weight: 4
-  #       - name: Contact
-  #         url: contact
-  #         weight: 5
-  #   weight: 2
-  
+      - name: Why Qauzativ?
+        url: product
+        weight: 1
+      - name: Training = Solutions
+        url: training
+        weight: 2
+      - hasChildren: true
+        name: Info
+        weight: 3
+      - name: About
+        parent: Info
+        url: about
+      - name: FAQ
+        parent: Info
+        url: faq
+      - name: Blog
+        parent: Info
+        url: blog
+      - name: Contact
+        parent: Info
+        url: contact
+      - name: Events
+        parent: Info
+        url: event
+      - name: course
+        url: course
+        weight: 11
+      - hasChildren: true
+        name: Pages
+        weight: 12
+      - name: teacher
+        parent: Pages
+        url: teacher
+      - name: notice
+        parent: Pages
+        url: notice
+      - name: event
+        parent: Pages
+        url: event
+      - name: scholarship
+        parent: Pages
+        url: scholarship
+      - name: research
+        parent: Pages
+        url: research
+      - name: author
+        parent: Pages
+        url: author
