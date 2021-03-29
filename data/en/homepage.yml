@@ -1,0 +1,197 @@
+################################# Slider #####################################
+slider:
+  enable: true
+  bg_image: "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title: "The world is becoming increasingly data-driven"
+      content: "Machine learning & AI is one of those transformational technologies 
+                that occur once per generation.
+                It is already embedded in services and products we use every day."
+      animation_in: "left"
+      animation_out: "right"
+      # available animation: left, right, up, down
+      button:
+        enable: true
+        label: "What we do" # Who we are # What we do
+        link: "about"
+
+    # slider item loop
+    - title: "Many industries are being profoundly transformed"
+      content: "Machine learning is the ultimate optimization tool.
+                Helps create new products and services.
+                Cuts costs. Automates processes."
+      animation_in: "left"
+      animation_out: "right"
+      # available animation: left, right, up, down
+      button:
+        enable: true
+        label: "What we do" # Who we are # What we do
+        link: "about"
+
+    # slider item loop
+    - title: "It is crucially important to stay ahead of the game"
+      content: "Make sure to keep up with the tranformation.
+                We may be able to help you with that."
+      animation_in: "left"
+      animation_out: "right"
+      # available animation: left, right, up, down
+      button:
+        enable: true
+        label: "What we do" # Who we are # What we do
+        link: "about" # insert correct link
+
+
+############################## about ##################################
+about:
+  enable: true
+  title: "About Qauzativ"
+  image: "images/about/about-us.jpg"
+  content: "We develop open source and SaaS applications for datawarehousing 
+  and machine learning. 
+  The data comes from credit bureau & insurance reports, CRM, ERP and similar
+  sources of business data.
+
+  \n
+
+  Our data analytics, ML and DL training programs leverage the codebase from 
+  our own applications, and for better learning experience, trainees build  
+  solutions of your choice besides working though the curriculum's projects."
+  button:
+    enable: true
+    label: "About us"
+    link: "about" # insert correct link
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable: true
+  image: "images/banner/banner-feature.png"
+  feature_item:
+
+    # feature item loop
+    - name: "Open source and free"
+      icon: "ti-blackboard" # icon pack: https://themify.me/themify-icons
+      content: "Download Qauzativ Community: deploy a database, clean & 
+                augment data, engineer features, perform data analytics & 
+                predictive modeling with free and open source code that 
+                runs in-database"
+
+    # feature item loop
+    - name: "SaaS applications"
+      icon: "ti-agenda" # icon pack: https://themify.me/themify-icons
+      content: "Pondering the 'Build vs Buy' dilemma, consider SaaS instead - 
+                easy integration, light-weight, customized to your requirements, 
+                cost efficient -- datawarehouse + models in Azure"
+
+    # feature item loop
+    - name: "A universe of data"
+      icon: "ti-book" # icon pack: https://themify.me/themify-icons
+      content: "**Common Data Model** that underpins Microsoft Dynamics 
+                is the foundation of Qauzativ DWH database schema -- 
+                all sorts of business data (ERP, CRM) are supported "
+
+    # feature item loop
+    - name: "Training = Solutions"
+      icon: "ti-write" # icon pack: https://themify.me/themify-icons
+      content: "This is not yet another maching learning course. 
+                We guide trainees through lectures, seminars and project labs 
+                towards building real-life solutions your company requires "
+
+      
+########################## Call to action ############################
+cta:
+  enable: true
+  title: "Why Qauzativ?"
+  subtitle: "or see below: key DWH + ML deliverables"
+  button:
+    enable: true
+    label: "Go to product page"
+    link: "product"
+
+
+############################# product ################################
+product:
+  enable: true
+  # title: "Key ML + DWH deliverables"
+  content: ""
+  
+  # product items come from "content/**/product" folder.
+
+
+########################## Call to action #2 ############################
+cta2:
+  enable: true
+  title: "Training = Solutions"
+  subtitle: "or see below: ML tracks"
+  button:
+    enable: true
+    label: "Go to product page"
+    link: "training"
+
+
+############################# training ################################
+training:
+  enable: true
+  title: "DSML training tracks"
+  content: ""
+  
+  # training items come from "content/**/training" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable: true
+  funfact_item:
+    # funfact item loop
+    - name: "Teachers"
+      count: "5"
+
+    # funfact item loop
+    - name: "Courses taught"
+      count: "7"
+
+    # funfact item loop
+    - name: "Trainees enrolled"
+      count: "58"
+
+    # funfact item loop
+    - name: "Corporate clients"
+      count: "14"
+
+# This element, named "Fun facts" is displayed on the homepage and in the `about` page
+# It is generated by a block of code, not a separate partial
+
+
+######################## Success story #############################
+success_story:
+  enable: true
+  bg_image: "images/backgrounds/success-story.jpg"
+  title: "Name of the section"
+  content: "This section is created by partial `success-story.html`
+
+  \n
+    
+  part #1 of the text for success story
+
+  \n
+  
+  part #2 of the text for success story "
+  # video link
+  video_link: "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+# This element, named "Success story" is displayed on the homepage and in the `about` page
+
+
+############################# event ################################
+event:
+  enable: true
+  title: "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+
+############################# blog ################################
+blog:
+  enable: true
+  title: "Latest blog posts"
+  # blog item comes from "content/**/blog" folder.
