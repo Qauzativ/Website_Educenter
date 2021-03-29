@@ -1,5 +1,5 @@
 ---
-baseURL: http://examplesite.org
+baseURL: https://naughty-mestorf-0456d0.netlify.app/
 title: Qauzativ website template
 theme: educenter-hugo
 paginate: '4'
