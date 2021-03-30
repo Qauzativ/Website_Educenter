@@ -1,6 +1,6 @@
 ---
-baseURL: https://naughty-mestorf-0456d0.netlify.app/
-title: Qauzativ website template
+baseURL: "/"
+title: Qauzativ website
 theme: educenter-hugo
 paginate: '4'
 summaryLength: '40'
