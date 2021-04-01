@@ -1,0 +1,43 @@
+---
+label: Core DSML track
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: bg_image
+  label: bg_image
+- type: file
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description
+- type: text
+  name: category
+  label: category
+- type: text
+  name: teacher
+  label: teacher
+- type: text
+  name: duration
+  label: duration
+- type: text
+  name: weekly
+  label: weekly
+- type: text
+  name: fee
+  label: fee
+- type: text
+  name: apply_url
+  label: apply_url
+- type: text
+  name: download_link
+  label: download_link
+- type: text
+  name: type
+  label: type
