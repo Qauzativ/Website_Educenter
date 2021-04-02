@@ -30,17 +30,10 @@ The Core DSML track is not yet another machine learning course.
 We do not intend to create substitutes for ML programs from
 top universities and companies like Udacity, DataCamp, DataQuest.
 
-Rather it is a series of projects that teach trainees to perform
-data analysis and build predictive models.
+a series of projects that teach trainees to perform data analysis and
+build predictive models.
 
-Rather we created an **end-to-end** solution for a typical DS/ML project by
-complementing [DataCamp's](https://www.datacamp.com) online courses with:
-
-* guided on-site practice-oriented labs by ML practitioners
-* lectures by university professors on the fundamentals of DS/ML theory
-* our R / Python code libraries for recurring data exploration and
-  prototyping tasks -- re-usable template code promotes faster learning
-  and gives DS/ML teams a strong headstart
+complementing [DataCamp's](https://www.datacamp.com) online courses
 
 ***
 
