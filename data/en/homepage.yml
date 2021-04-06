@@ -43,8 +43,8 @@ about:
   enable: true
   title: "About Qauzativ"
   image: "images/about/about-us.jpg"
-  content: "We develop open source and SaaS applications for datawarehousing 
-  and machine learning that cater to the needs of larger and small businesses alike"
+  content: "We develop open source and SaaS applications that democratize 
+  datawarehousing and machine learning -- large and small businesses alike"
   button:
     enable: true
     label: "About us"
