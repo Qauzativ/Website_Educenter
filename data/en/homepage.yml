@@ -5,9 +5,7 @@ slider:
   slider_item:
     # slider item loop
     - title: "The world is becoming increasingly data-driven"
-      content: "Machine learning & AI is one of those transformational technologies 
-                that occur once per generation.
-                It is already embedded in services and products we use every day."
+      content: "Many industries are being profoundly transformed"
       animation_in: "left"
       animation_out: "right"
       # available animation: left, right, up, down
@@ -17,9 +15,8 @@ slider:
         link: "about"
 
     # slider item loop
-    - title: "Many industries are being profoundly transformed"
-      content: "Machine learning is the ultimate optimization tool.
-                Helps create new products and services.
+    - title: "Machine learning is the ultimate optimization tool"
+      content: "Helps create new products and services.
                 Cuts costs. Automates processes."
       animation_in: "left"
       animation_out: "right"
@@ -30,9 +27,8 @@ slider:
         link: "about"
 
     # slider item loop
-    - title: "It is crucially important to stay ahead of the game"
-      content: "Make sure to keep up with the tranformation.
-                We may be able to help you with that."
+    - title: "It is crucial to keep up with the transformation"
+      content: "We might be in a position to help you with that"
       animation_in: "left"
       animation_out: "right"
       # available animation: left, right, up, down
@@ -48,15 +44,7 @@ about:
   title: "About Qauzativ"
   image: "images/about/about-us.jpg"
   content: "We develop open source and SaaS applications for datawarehousing 
-  and machine learning. 
-  The data comes from credit bureau & insurance reports, CRM, ERP and similar
-  sources of business data.
-
-  \n
-
-  Our data analytics, ML and DL training programs leverage the codebase from 
-  our own applications, and for better learning experience, trainees build  
-  solutions of your choice besides working though the curriculum's projects."
+  and machine learning"
   button:
     enable: true
     label: "About us"
@@ -72,41 +60,37 @@ banner_feature:
     # feature item loop
     - name: "Open source and free"
       icon: "ti-blackboard" # icon pack: https://themify.me/themify-icons
-      content: "Download Qauzativ Community: deploy a database, clean & 
-                augment data, engineer features, perform data analytics & 
-                predictive modeling with free and open source code that 
-                runs in-database"
+      content: "Download **Qauzativ Community**: clean & augment data, 
+                generate variables, perform data analytics & predictive modeling"
 
     # feature item loop
     - name: "SaaS applications"
       icon: "ti-agenda" # icon pack: https://themify.me/themify-icons
-      content: "Pondering the 'Build vs Buy' dilemma, consider SaaS instead - 
-                easy integration, light-weight, customized to your requirements, 
-                cost efficient -- datawarehouse + models in Azure"
+      content: "**Qauzativ Cloud**: pondering the 'Build vs Buy' dilemma, 
+                consider SaaS instead - light-weight, customized,
+                cost efficient DWH + ML"
 
     # feature item loop
     - name: "A universe of data"
       icon: "ti-book" # icon pack: https://themify.me/themify-icons
-      content: "**Common Data Model** that underpins Microsoft Dynamics 
-                is the foundation of Qauzativ DWH database schema -- 
-                all sorts of business data (ERP, CRM) are supported "
+      content: "Qauzativ DWH, based on the *Common Data Model*, supports
+                all sorts of business data (ERP, CRM)"
 
     # feature item loop
     - name: "Training = Solutions"
       icon: "ti-write" # icon pack: https://themify.me/themify-icons
-      content: "This is not yet another maching learning course. 
-                We guide trainees through lectures, seminars and project labs 
-                towards building real-life solutions your company requires "
+      content: "Training of your employees in ML is combined with building
+                your custom solutions. Not yet another maching learning course."
 
       
 ########################## Call to action ############################
 cta:
   enable: true
   title: "Why Qauzativ?"
-  subtitle: "or see below: key DWH + ML deliverables"
+  subtitle: "See below the key DWH + ML deliverables"
   button:
     enable: true
-    label: "Go to product page"
+    label: "go to product page"
     link: "product"
 
 
@@ -123,7 +107,7 @@ product:
 cta2:
   enable: true
   title: "Training = Solutions"
-  subtitle: "or see below: ML tracks"
+  subtitle: "See below our ML training programs"
   button:
     enable: true
     label: "Go to product page"
@@ -133,7 +117,7 @@ cta2:
 ############################# training ################################
 training:
   enable: true
-  title: "DSML training tracks"
+  # title: "DSML training programs"
   content: ""
   
   # training items come from "content/**/training" folder.

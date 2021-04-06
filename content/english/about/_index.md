@@ -99,3 +99,15 @@ The technical expertise to develop and innovate, the organizational skills
 to successfully implement and embed this innovation into our daily work,
 and the leadership know-how to make best use and wisely invest.
 So, however you slice it, success in AI depends first on expertise and education.
+
+***
+
+https://bdtechtalks.com/2020/09/07/prediction-machines-review-ai-business/
+
+There’s a difference between a shiny new thing and a thing that works.
+You just need to look at the annual Consumer Electronics Show (CES)
+in Las Vegas to see how much of the technology we create just doesn’t
+cut it and gets tossed into the wastebin of innovation because
+it doesn’t find a working business model.
+
+***

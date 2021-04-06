@@ -13,9 +13,9 @@
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
-              data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
-              <h4 class="text-white mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</h4>
+            <h2 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
+              data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h2>
+              <h3 class="text-white mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</h3>
               <!-- <h3 class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</h3> -->
             {{ if .button.enable }}
             <a href="{{ .button.link | absLangURL }}" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .button.label }}</a>
@@ -93,14 +93,14 @@
     <div class="row">
       <div class="col-12 text-center">
         <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
+        <h3 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
+        <a><br></a>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | absLangURL }}" class="btn btn-light">{{ .label }}</a>
         {{ end }}
         {{ end }}
         <a><br></a>
-        <a><br></a>
-        <h3 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
       </div>
     </div>
   </div>
@@ -154,14 +154,14 @@
     <div class="row">
       <div class="col-12 text-center">
         <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
+        <h3 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
+        <a><br></a>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | absLangURL }}" class="btn btn-light">{{ .label }}</a>
         {{ end }}
         {{ end }}
         <a><br></a>
-        <a><br></a>
-        <h3 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
       </div>
     </div>
   </div>
@@ -179,9 +179,9 @@
         <div class="d-flex align-items-center section-title justify-content-between">
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.training.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-          <div>
+          <!-- <div>
             <a href="{{ `training` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
