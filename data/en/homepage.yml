@@ -27,7 +27,7 @@ slider:
         link: "about"
 
     # slider item loop
-    - title: "It is crucial to keep up with the transformation"
+    - title: "Be sure to keep up with the transformation"
       content: "We might be in a position to help you with that"
       animation_in: "left"
       animation_out: "right"
