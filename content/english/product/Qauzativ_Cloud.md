@@ -9,15 +9,15 @@ description : ""
 # course thumbnail
 image: "images/courses/course-2.jpg"
 # taxonomy
-category: "Mathematics"
+category: ""
 # teacher
-teacher: "Jacke Mastio"
+teacher: ""
 # duration
-duration : "06 Month"
+duration: ""
 # weekly
-weekly : "03 hours"
+weekly: ""
 # course fee
-fee : "From: $699"
+fee: ""
 # apply url
 apply_url : "#"
 # type

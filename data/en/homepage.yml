@@ -28,7 +28,7 @@ slider:
 
     # slider item loop
     - title: "Be sure to keep up with the transformation"
-      content: "We might be in a position to help you with that"
+      content: "We might be able to help you with that"
       animation_in: "left"
       animation_out: "right"
       # available animation: left, right, up, down
@@ -68,8 +68,8 @@ banner_feature:
     - name: "SaaS applications"
       icon: "ti-agenda" # icon pack: https://themify.me/themify-icons
       content: "**Qauzativ Cloud**: pondering the 'Build vs Buy' dilemma, 
-                consider SaaS instead - light-weight, customized,
-                cost efficient DWH + ML"
+                consider Azure-based SaaS instead - customizable, light-weight
+                and cost efficient DWH + ML"
 
     # feature item loop
     - name: "A universe of data"
@@ -80,19 +80,18 @@ banner_feature:
     # feature item loop
     - name: "Training = Solutions"
       icon: "ti-write" # icon pack: https://themify.me/themify-icons
-      content: "We combine training of your employees in ML with building
-                your custom solutions, delivering the required bottomline
-                results"
+      content: "2-in-1 deliverable: ML training of your employees is combined 
+                with building your required custom solutions"
 
       
 ########################## Call to action ############################
 cta:
   enable: true
-  title: "Why Qauzativ?"
-  subtitle: "See below the key DWH + ML deliverables"
+  title: "Why Qauzativ DWH + ML?"
+  subtitle: "The key deliverable is giving you the power over your data"
   button:
-    enable: true
-    label: "go to product page"
+    enable: #true
+    label: "or proceed to the product page"
     link: "product"
 
 
@@ -109,10 +108,10 @@ product:
 cta2:
   enable: true
   title: "Training = Solutions"
-  subtitle: "See below our ML training programs"
+  subtitle: "See our ML training programs below"
   button:
-    enable: true
-    label: "Go to product page"
+    enable: #true
+    label: "or proceed to the product page"
     link: "training"
 
 

@@ -9,17 +9,15 @@ image: "images/courses/course-1.jpg"
 # meta description
 description : ""
 # taxonomy
-category: "Photography"
+category: ""
 # teacher
-teacher: "Clark Malik"
-# teacher2
-teacher2: "Clark Gable"
+teacher: ""
 # duration
-duration : "06 Month"
+duration: ""
 # weekly
-weekly : "03 hours"
+weekly: ""
 # course fee
-fee : "From: $699"
+fee: ""
 # apply url
 apply_url : "#"
 # type
