@@ -24,15 +24,15 @@ apply_url : "#"
 type: "product" # "course" # "research" # "event" # "notice" # "scholarship" # "post" # "deliverables"
 ---
 
-Qauzativ Cloud is a cloud-native DWH powered by Microsoft Azure ***plus***
+Qauzativ Cloud is a cloud-native DWH powered by Microsoft Azure with 
 customizable predictive models on top of it. While the focus is on credit risk,
-insurance and retail use-cases, potential scope covers many industries, or
-in fact any industry as long as there is sufficient data.
+insurance and retail use-cases, the potential scope covers many industries,
+or any industry as long as there is sufficient data.
 
-The database schema of QZ Cloud includes structured data that is versatile
-enough to support an ERP system like Microsoft Dynamics as well as graph data,
-less structured data like text to support data driven decision making with
-other types of ML algorithms like network analysis and NLP.
+The database schema of QZ Cloud includes structured data versatile enough
+to support an full-fledged ERP system like Microsoft Dynamics.
+Less structured data like text and other data types like graphs are also
+supported.
 
 ***
 
@@ -40,14 +40,15 @@ other types of ML algorithms like network analysis and NLP.
 
 AI / ML is embraced by the most innovative companies for a good reason:
 it brings competitive advantages via cutting costs, boosting revenues,
-increasing productivity, elevating customer experience but comes at a cost:
+increasing productivity, and elevating customer experience.
+But comes with a cost:
 
-* High complexity and maintenance of the infrastructure.
-  To stay up to date, not even ahead of the game in the fast-growing ecosystem
-  of ML frameworks and platforms, businesses have to test new platforms,
-  discontinue obsolete ones and start over again in a never-ending cycle.
+* **High complexity and maintenance of the infrastructure.**
+  To stay up to date with the fast-growing ecosystem of ML frameworks and
+  platforms, companies have to test new platforms, discontinue obsolete ones
+  and start over again in a never-ending cycle.
 
-* High cost of ML experts.
+* **High cost of ML experts.**
   Qualified data scientists are expensive and hard to find.
   Unless DSML is the primary line of business that generates products for
   customers rather than a support function behind existing operations,
@@ -57,10 +58,11 @@ We believe any business should be in a position to use advanced AI / ML.
 There must be an option to get started without having to invest in research
 and infrastructure.
 
-It is our mission with QZ Cloud to make modern cloud-era DWH and ML tools
-accessible to small, mid-size and large businesses -- as a 24x7x365 service,
-at a fraction of the cost of in-house development -- turning *"Renting"* into
-an alternative to the "Build vs Buy" conundrum.
+It is our mission with QZ Cloud to make modern DWH & ML tools accessible
+to small, mid-sized and large businesses alike: as a 24x7x365 service and
+at a fraction of the in-house development cost.
+In the era of the cloud, *SaaS* has firmly established itself as a worthy
+alternative to the "Build vs Buy" conundrum.
 
 ***
 
@@ -179,21 +181,20 @@ Recommendation systems.
 Retail companies have diverse data usage scenarios and prediction use-cases.
 We use various methods and algorithms according to specific business requirements.
 
-Retail 
+Retail
 
 Demand prediction
 Customer retention
 Inventory control
 
-Finance 
+Finance
 
 Fraud detection
 Customer segmentation
 Risk analysis
 Customer retention
 
-
-Manufacturing 
+Manufacturing
 
 Predictive Maintenance
 Anomaly Detection

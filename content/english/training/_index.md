@@ -87,8 +87,8 @@ Teaching the fundamentals of data science and machine learning to 10 or 20
 employees from different business domains is simpler and faster than making
 5 data scientists experts in 10 different business domains.
 Given that data exploration and prototyping often takes 70-80% of entire project
-time, contribution by domain experts will save those math-savvy senior data
-scientists a lot of time and effort ---> and lots of US$ labour savings.
+time, contribution by domain experts will save senior data scientists a lot of
+time and effort and bring substantial labour savings to the company.
 
 ##### Demystify and simplify
 
@@ -115,7 +115,7 @@ and existing business domain expertise along a few lines:
 
 * Correct problem definition. *"A problem well defined is half-solved"*
 
-* Data exploration and prototyping ---> cost savings and shorter time to production
+* Data exploration and prototyping ---> labour cost savings and shorter time to production
 
 * Project management, technical documentation, requirements management
 
@@ -128,7 +128,7 @@ or math, trainees taking "Deep ML track" and "Special ML track" are expected
 to have intermediate knowledge of DSML fundamentals, linear algebra and Python
 programming.
 
-Note that a share of the codebase used in "Core DSML track" is freely available
+Note that a share of the "Core DSML track" codebase is freely available
 on our [GitHub](https://www.github.com/Qauzativ) for your review.
 
 | Topics and projects                          | Core DSML track    | Special ML track   | Deep ML track      |

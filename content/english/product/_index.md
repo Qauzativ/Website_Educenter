@@ -100,8 +100,8 @@ Other ML tracks have more custom-tailored content.
 For the trainees's better learning experience, we guide them through multiple
 practice-based projects as well as multiple online and offline courses.
 
-For a better return on your investment, at least
-one of those projects is turned into a real-life solution that you require.
+For a better return on your investment, at least one of those projects
+is turned into a real-life solution for your company.
 
 **If your company:**
 
